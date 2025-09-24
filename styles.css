@@ -101,17 +101,22 @@ nav ul li {
 .hero-left {
   flex: 1;
   min-width: 250px;
+
 }
 
 .hero-left h1 {
-  font-size: 3.2rem;
+  font-size: clamp(3rem, 6vw, 5rem); /* se adapta sin romper */
   font-weight: 900;
-  line-height: 1.2;
+  line-height: 1.1;
+  color: #fff;
+  text-align: left;
+  letter-spacing: -1px; /* más moderno */
+  filter: drop-shadow(0 4px 2.7px rgba(179, 0, 0, 0.25)); /* tu glow rojo */
 }
 
 .profile-pic {
-  width: 140px;         /* tamaño de la foto */
-  height: 140px;
+  width: 180px;         /* tamaño de la foto */
+  height: 180px;
   border-radius: 50%;   /* lo hace circular */
   object-fit: cover;    /* recorta para llenar bien el círculo */
   margin: 0 auto 20px;  /* centrado + espacio debajo */

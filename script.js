@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
     document.getElementById("loader-container").style.display = "none";
     document.getElementById("main-content").style.display = "block";
-  }, 5000); // 5 segundos
+  }, 1500); // 5 segundos
 
   // 📱 Toggle menú en móvil
   const menuBtn = document.querySelector(".menu-btn");
