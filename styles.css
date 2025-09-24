@@ -279,6 +279,7 @@ nav ul li {
     flex-direction: column;
     text-align: center;
     height: auto;
+    padding: 30px 20px;
   }
 
   .hero-left h1 {
@@ -291,6 +292,23 @@ nav ul li {
     max-width: 90%;  /* deja un poco de margen */
     height: auto;    /* altura automática */
     margin: 20px auto; /* centrado y margen reducido */
-    text-align: left;
+    text-align: center;
+  }
+
+  .profile-pic {
+    margin: 0 auto 20px; /* centrada arriba */
+  }
+
+  .hero-left h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  .hero-right h2 {
+    font-size: 1.3rem;
+  }
+
+  .hero-right p {
+    display: none; /* 👈 oculta el párrafo en móvil */
   }
 }
